@@ -1,13 +1,11 @@
 <?php
-/*$tabuada = 5;
-printf("O resultado é ");
-echo $tabuada;
-*/
- $n1 = 5;
- $n2 = 5;
- $res = $n1 + $n2;
- printf("%s + %s = ", $n1, $n2);
- echo $res;
+
+$n1 = 30;
+$n2 = 15;
+
+	$soma = sprintf("A soma é: %d", $v1 + $v2);
+	echo $soma;
+	
 
 ?>
 
