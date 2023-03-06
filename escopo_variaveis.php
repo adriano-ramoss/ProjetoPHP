@@ -5,11 +5,11 @@
   
     function exibir(){
         $nome = 'Josefina';
-        echo ("O valor dentro da variavel da função " . $nome);
+        echo ("O valor dentro da variável da função " . $nome);
 
     }
     exibir ();
-        echo("<br> Valor da variavel fora da função " .$nome);
+        echo("<br> Valor da variável fora da função " .$nome);
 
 
 ?>
