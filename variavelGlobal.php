@@ -1,12 +1,14 @@
 <?php
 
-$ano = 2020;
-function exibir($parametro){
-    $parametro = $parametro + 4;
-    return $parametro;
-}
-
-echo "Estamos em " .$ano. " e daqui a 4 anos estaremos em " .exibir($ano);
-
-
+    $ano = 2020;
+    //implementação de uma função
+    function exibir (){
+        GLOBAL $ano; //definição da variável global
+        $ano++;
+        return $ano;
+    }
+    echo "<br/> Ano: ".$ano; 
+    echo "<br/> Ano: ".exibir();
+    echo "<br/> Ano: ".exibir();
+    echo "<br/> Ano: ".$ano;
 ?>
