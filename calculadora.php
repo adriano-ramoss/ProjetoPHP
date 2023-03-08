@@ -1,10 +1,9 @@
 <?php
 
-$n1 = 30;
-$n2 = 15;
+$n1 = 2;
+$n2 = 5;
 
-	$soma = sprintf("A soma é: %d", $v1 + $v2);
-	echo $soma;
+	echo $n1 ." + ". $n2 ." = ".($n1+$n2) ;
 	
 
 ?>
